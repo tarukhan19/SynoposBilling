@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.SelectBillTypeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_20dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_200dp"
+            android:src="@drawable/logohorizontal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_18sp"
+            android:textColor="@color/black"
+            android:text="@string/selectbilltype"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/takeawayBTN"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:background="@color/billcolorAccent"
+            android:text="@string/takeaway"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_14sp" />
+
+        <Button
+            android:id="@+id/dineinBTN"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@color/billcolorAccent"
+            android:text="@string/dinein"
+            android:textAllCaps="false"
+
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sp" />
+
+        <Button
+            android:id="@+id/deliveryBTN"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@color/billcolorAccent"
+            android:text="@string/Delivery"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sp" />
+    </LinearLayout>
+</layout>
